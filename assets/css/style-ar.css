@@ -1,0 +1,105 @@
+
+body{
+    text-align: right;
+}
+.navbar-nav .mainItem{
+    direction: rtl !important;
+    float: right;
+   
+}
+.highlight_dropdown li{
+    direction: rtl !important;
+    text-align: right !important;
+}
+.service_contact_area{
+    direction: rtl !important;
+}
+.footer_area .footer_widget .social_links {
+    float: right;}
+    .contact_style_4{
+        direction: rtl !important;
+    }
+    /*.header_area .main_menu_area .logo{
+        width: 90px;
+        padding: 25px 26px;
+        padding-bottom:38px ;
+        
+      }*/
+      .header_area .main_menu_area .logo-img{
+        
+     overflow: hidden;}
+
+
+     @media (min-width: 768px) and (max-width: 991px), (min-width: 481px) and (max-width: 767px), only screen and (max-width: 480px) {
+     .navbar-nav .mainItem {
+         margin-left: 20px !important;
+     }}
+     .header_area .main_menu_area .navbar-nav li a{
+        
+      
+    
+     }
+     .footer_area h5{
+          margin-right:20px !important;
+    }
+     .navbar-nav{
+        
+     }
+     
+        
+        
+      
+      .container1.right .date {
+        left: -150px !important;
+        text-align: right !important;
+        direction: rtl;
+    }
+    #myBtnContainer{
+        text-align: right !important;
+    }
+    .row1{
+        direction: rtl;
+    }
+    .row1 .column1{
+        direction: rtl;
+        float: right  !important;
+      
+    }
+    .row1 .column1 img{
+      padding-right: 5px !important;
+    }
+    .row1 .column1 a{
+        direction: rtl;
+    }
+   .main{
+    direction: rtl;
+   }
+   .dropdown-menu{
+    direction: rtl;
+   }
+   .megamenu{
+    direction: rtl;
+   }
+   .ms-options-wrap > .ms-options > ul input[type="checkbox"] {
+    margin: 0 !important;
+    position: absolute;
+    left: 100px !important;
+    top: 14px !important;
+}
+.flag{
+    margin-top:-5px;
+}
+.header_area .main_menu_area .navbar-nav .btn_box{
+    margin-top: 0px !important;
+    margin-right: 20px;
+}
+.ms-options-wrap>button:after{
+    right: 97% !important
+}
+
+.commecial h4, ul{
+    text-align: right !important;
+}
+.container1.left .content{
+    left:0px !important
+}

@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Commercial</title>
+    <!--Google font-->
+      
+    <!--favicon-->
+    <link rel="icon" href="assets/images/fav.webp">
+    <!--stylesheet-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.css">
+
+     <link rel="stylesheet" href="assets/css/fontello.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> 
+    <link rel="stylesheet" media="screen" href="assets/css/lightbox.css" />
+       <link rel="stylesheet" href="assets/css/animate.min.css">
+
+       <link rel="stylesheet" href="assets/css/style.min.css">
+       <link rel="stylesheet" href="assets/css/new.min.css">
+      <link rel="stylesheet" href="assets/css/jquery.multiselect.min.css">
+      <style>
+         
+   .products_section{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100vw !important;
+  
+  background-color: #fff !important;
+}
+.products_section .container6 {
+    padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0 80px;
+}
+.card6 {
+  width: 300px;
+  margin: 40px;
+  height: 400px;
+  background-color: white;
+}
+.card6:hover .card6_caption {
+  top: 50%;
+  transform: translateY(-50%);
+  color:red !important
+}
+.card6:hover .card6_image {
+  transform: translateY(-10px);
+}
+.card6:hover .card6_thumb::after {
+  top: 0;
+}
+.card6:hover .card6_snippet {
+  margin: 20px 0;
+}
+.card6_thumb {
+  position: relative;
+  max-height: 400px;
+  overflow: hidden;
+  border: 1px solid #64c3c3;
+}
+@media (min-width: 1024px) {
+  .card6_thumb {
+    max-height: 500px;
+  }
+}
+.card6_thumb::after {
+  position: absolute;
+  top: 0;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  background:linear-gradient(to right bottom,#29a2c6,#7bd0c2,#84ca90);
+}
+@media (min-width: 1024px) {
+  .card6_thumb::after {
+    top: calc(100% - 80px);
+  }
+}
+.card6_image {
+  transition: 0.5s ease-in-out;
+  width: 100%;
+}
+.card6_caption {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  padding: 0 5px;
+  color: white !important;
+  transform: translateY(-50%);
+  text-align: center;
+  transition: 0.3s;
+}
+@media (min-width: 1024px) {
+  .card6_caption {
+    top: calc(100% - 110px);
+    transform: unset;
+  }
+}
+.card6_title {
+    padding-top: 50px;
+  display: -webkit-box;
+  
+  overflow: hidden;
+  font-size: 23px;
+ 
+  color: white !important;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.card6_snippet {
+    color: #fff !important;
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 20px;
+  transition: 0.5s ease-in-out;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+@media (min-width: 1024px) {
+  .card6_snippet {
+    margin: 60px 0;
+  }
+}
+.card6_button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background-color: transparent !important;
+  border: 1px solid white;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.card6_button:hover {
+  color: #47bfae;
+  background-color: white !important;
+}
+.disclaimer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  z-index: 2;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 10px;
+  background-color: white;
+  transform: translateX(-50%);
+  font-size: 14px;
+  text-align: center;
+}
+.disclaimer_link {
+  color: #755d87;
+  text-decoration: none;
+}
+      </style>
+
+</head>
+<body style="background-color: #fafafa">
+     <div class="icon-bar1">
+        <div class="social-links">
+          <a href="https://twitter.com/yousmartae?lang=en" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.facebook.com/yousmart.ae/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com/yousmart.ae/?hl=en" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    <!-- ***************************
+        PreLoader Area Start
+     *************************** -->
+     <div class="spinner">
+        <div class="middle">
+            <div class="bar bar1"></div>
+            <div class="bar bar2"></div>
+            <div class="bar bar3"></div>
+            <div class="bar bar4"></div>
+            <div class="bar bar5"></div>
+            <div class="bar bar6"></div>
+            <div class="bar bar7"></div>
+            <div class="bar bar8"></div>
+          </div> </div>
+    <!-- ***************************
+        PreLoader Area Start
+     *************************** -->
+    <!-- ***************************
+        Header Area Start
+     *************************** -->
+     <header class="header_area home_header_area">
+         
+        <div class="main_menu_area scroll_fixed" style="z-index: 999999; background-color: #fff;">
+            <div class="container">
+                <div class="row row2">
+                    <div  class="col-md-1 col-sm-12 col-xs-12 responsive_button">
+                        <button type="button" class="navbar-toggles">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="home.html" class="logo">
+                           <div class="logo-img"><img id="logo" src="assets/images/logo3.webp" alt="Logo"></div>
+                        </a>
+                    </div><!--end .col-md-2-->
+                    <div class="col-md-11 collapse_responsive text-right">
+                        <span class="close_menu_area_btn">x</span>
+                        <div class="collapse navbar-collapse remove_padding" id="myNavbar">
+                            <ul class="nav navbar-nav text-center">
+                                <li class="drop_list mainItem"> 
+                                    <a href="home.html">Home </a>  
+                                    <!--<ul class="highlight_dropdown">
+                                        <li><a href="home.html">Home V1</a></li>
+                                        <li><a href="home-2.html">Home v2</a></li>
+                                        <li><a href="home-3.html">Home v3</a></li>
+                                        <li><a href="home-4.html">Home v4</a></li>
+                                    </ul>-->
+                                </li>
+                               <li class="mainItem"><a   href="product.html">Products</a></li>
+                                <li class="mainItem"><a  href="service.html">services</a></li>
+                                   <li class="mainItem"><a href="smart-home.html">Smart Home </a></li>
+                                   <li class="mainItem"><a style="background-color: #47bfae; color: #FFF; border-radius: 10px;"  href="commercial.html">Commercial </a></li>
+                                <li class="mainItem"><a  href="about.html">About Us</a></li>
+                                
+                                   
+                                   </li>
+                                    <li class="mainItem"><a  href="blog.html">blog </a></li>
+                                <!--<li class="drop_list">
+                                    <a href="">Pages</a>  
+                                    <ul class="highlight_dropdown">
+                                       <li><a href="pricing.html">Plans & Pricing</a></li>
+                                       <li><a href="pro-installation.html">Pro Installation</a></li>
+                                       <li><a href="blog.html">Blog</a></li>
+                                       <li><a href="blog-details.html">Single Blog</a></li>
+                                       <li><a href="404.html">404</a></li>
+                                    </ul>
+                                </li>-->
+                                <li class="mainItem"><a href="contact.html">contact us </a></li>
+                                <li class="mainItem"><a href="ar/commercial.html"> <img class="flag" src="assets/images/united-arab-emirates.webp"></a></li>
+                                <li class="mainItem">
+                                   <a href="" class="btn btn-default default_btn" data-toggle="modal" data-target="#modalAbandonedCart" style="background-color: #47bfae; color: #FFF; border-radius: 10px;">  request service
+                                   </a>
+                                   <!--<a href="#" class="btn btn-default default_btn"><i class="fa fa-angle-left"></i>أجهزة ذكية</a>
+                                   <a href="#" class="btn btn-default default_btn"><i class="fa fa-angle-left"></i>بيت ذكي </a>-->
+                                   </li><!--end .btn_box-->
+                            </ul>
+                        </div><!--end .collapse-->
+                    </div><!--end .col-md-10-->
+                </div><!--end .row-->
+            </div><!--end .container-->
+        </div><!--end .main_menu_area-->
+    </header><!--end .header_area-->
+    <div class="modal fade right" id="modalAbandonedCart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true" data-backdrop="false">
+    <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" style="top:100px" role="document">
+      <!--Content-->
+      <div class="modal-content">
+        <!--Header-->
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="white-text">&times;</span>
+              </button>
+          <span class="heading"> Get service
+          </span>
+        </div>
+        <!--Body-->
+        <div class="modal-body">
+            <!-- ***************************
+       Contact Area Start
+    *************************** -->
+    <section class="contact_area contact_style_4">
+                    <div class="contact_box">
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="input-group">
+                                        <input type="text" name="name" placeholder="Name" required>
+                                    </div><!--end .input-group-->
+                                </div><!--end .col-md-6-->
+                                <div class="col-md-12">
+                                    <div class="input-group">
+                                        <input type="EMAIL" name="EMAIL" placeholder="Email" required>
+                                    </div><!--end .input-group-->
+                                </div><!--end .col-md-6-->
+                                <div class="col-md-12">
+                                    <div class="input-group">
+                                        <input type="EMAIL" name="MOBILE NUMBER" placeholder="Phone Number" required>
+                                    </div><!--end .input-group-->
+                                </div><!--end .col-md-6-->
+                                <div class="col-md-12">
+                                    
+                                         <select id="choices-multiple-remove-button" placeholder="Select Service" multiple>
+                                                <option value="amc">AMC</option>
+                                                <option value="Video Surveillance System">Video Surveillance System</option>
+                                                <option value="Structured Networking">Structured Networking</option>
+                                                <option value="Intercom System">Intercom System</option>
+                                                <option value="Sound System">Sound System</option>
+                                                <option value="Gate Barrier System">Gate Barrier System</option>
+                                                <option value="WIFI Network Solutions">WIFI Network Solutions</option>
+                                                <option value="Network Cabiling And Infrastructure Solutions">Network Cabiling And Infrastructure Solutions</option>
+                                                <option value="Building Access Control And Biometrics System">Building Access Control And Biometrics System
+                                                </option>
+                                                <option value="Building Management System">Building Management System
+                                                </option>
+                                               
+                                            </select> 
+                                    
+                                    <!--<div class="input-group">
+                                    <select name="basic[]" multiple="multiple" class="3col active form-control">
+                                        <option value="Wireless Networking">Wireless Networking</option>
+                                        <option value="Call For Prayers">Call For Prayers</option>
+                                        <option value="Structured Networking">Structured Networking</option>
+                                        <option value="Sound System">Sound System</option>
+                                        <option value="Intercom">Intercom</option>
+                                        <option value="Surveillance Cameras">Surveillance Cameras</option>
+                                        <option value="Surveillance Cameras">Smart Smoke Detector</option>
+                                        
+                                        <option value="Smart lighting">Smart lighting</option>
+                                        <option value="Smart Curtains">Smart Curtains</option>
+                                        <option value="Smart Thermostat">Smart Thermostat</option>
+                                        <option value="Smart Door Bell">Smart Door Bell</option>
+                                        <option value="PBX System">PBX System</option>
+                                        <option value="Server Cabinet">Server Cabinet</option>
+                                        <option value="Optical fiber">Optical fiber</option>
+                                        <option value="Smart Garage Opener">Smart Garage Opener</option>
+                                    </select>
+                                    </div>-->
+                                    
+                                </div>
+                            </div><!--end .row-->
+                        </form>
+                    </div><!--end .contact_box-->
+    </section><!--end .contact_area-->
+    <!-- ***************************
+        Contact Area End
+     *************************** -->
+        </div>
+        <!--Footer-->
+        <div class="modal-footer justify-content-center">
+         
+          <a type="button" class="btn btn-outline-info waves-effect" data-dismiss="modal">Cancel</a>
+          <a type="button" class="btn btn-info modal-button">Send</a>
+        </div>
+      </div>
+      <!--/.Content-->
+    </div>
+  </div>
+   <!-- ***************************
+       Header Area End
+    *************************** -->
+    <!-- ***************************
+        Breadcrumb Area Start
+     *************************** -->
+     
+    <!-- ***************************
+        Breadcrumb Area End
+     *************************** -->
+    <!-- ***************************
+       Service Area Start
+    *************************** -->
+    <section class="products_section">
+
+        <div class="container6">
+            <div class="card6">
+                <figure class="card6_thumb">
+                    <img src="assets/images/commercial/4-01.webp" alt="Picture by Kyle Cottrell" class="card6_image">
+                    <figcaption class="card6_caption">
+                        <h2 class="card6_title">AMC</h2>
+                        <p class="card6_snippet"> You Smart provides the most accurate maintenance and installation
+                            services, with the help of a professional team that is trained thoroughly
+                            to give results that make customers want to always come back.</p>
+                            <a href="" class="btn btn-default card6_button" data-toggle="modal" data-target="#modalAbandonedCart1">  request service
+                            </a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="modal fade right" id="modalAbandonedCart1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true" data-backdrop="false">
+            <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" style="top:100px" role="document">
+              <!--Content-->
+              <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                      </button>
+                  <span class="heading"> Get service
+                  </span>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <!-- ***************************
+               Contact Area Start
+            *************************** -->
+            <section class="contact_area contact_style_4">
+                            <div class="contact_box">
+                                <form action="#" method="post">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="text" name="name" placeholder="Name" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="EMAIL" placeholder="Email" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="MOBILE NUMBER" placeholder="Phone Number" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            
+                                                 <select id="choices-multiple-remove-button" value="amc" >
+                                                        <option value="amc">AMC</option>
+                                                        
+                                                       
+                                                    </select> 
+                                            
+                                            <!--<div class="input-group">
+                                            <select name="basic[]" multiple="multiple" class="3col active form-control">
+                                                <option value="Wireless Networking">Wireless Networking</option>
+                                                <option value="Call For Prayers">Call For Prayers</option>
+                                                <option value="Structured Networking">Structured Networking</option>
+                                                <option value="Sound System">Sound System</option>
+                                                <option value="Intercom">Intercom</option>
+                                                <option value="Surveillance Cameras">Surveillance Cameras</option>
+                                                <option value="Surveillance Cameras">Smart Smoke Detector</option>
+                                                
+                                                <option value="Smart lighting">Smart lighting</option>
+                                                <option value="Smart Curtains">Smart Curtains</option>
+                                                <option value="Smart Thermostat">Smart Thermostat</option>
+                                                <option value="Smart Door Bell">Smart Door Bell</option>
+                                                <option value="PBX System">PBX System</option>
+                                                <option value="Server Cabinet">Server Cabinet</option>
+                                                <option value="Optical fiber">Optical fiber</option>
+                                                <option value="Smart Garage Opener">Smart Garage Opener</option>
+                                            </select>
+                                            </div>-->
+                                            
+                                        </div>
+                                    </div><!--end .row-->
+                                </form>
+                            </div><!--end .contact_box-->
+            </section><!--end .contact_area-->
+            <!-- ***************************
+                Contact Area End
+             *************************** -->
+                </div>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                 
+                  <a type="button" class="btn btn-outline-info waves-effect" data-dismiss="modal">Cancel</a>
+                  <a type="button" class="btn btn-info modal-button">Send</a>
+                </div>
+              </div>
+              <!--/.Content-->
+            </div>
+          </div>
+            <div class="card6">
+                <figure class="card6_thumb">
+                    <img src="assets/images/commercial/20-01.webp" alt="Picture by Nathan Dumlao" class="card6_image">
+                    <figcaption class="card6_caption">
+                        <h2 class="card6_title">Video Surveillance System</h2>
+                        <p class="card6_snippet"> A system of monitoring activity in an area or building using a television
+                            system in which signals are transmitted from a television camera to the
+                            receivers by cables or telephone links forming a closed circuit.</p>
+                            <a href="" class="btn btn-default card6_button" data-toggle="modal" data-target="#modalAbandonedCart2">  request service
+                            </a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="modal fade right" id="modalAbandonedCart2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true" data-backdrop="false">
+            <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" style="top:100px" role="document">
+              <!--Content-->
+              <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                      </button>
+                  <span class="heading"> Get service
+                  </span>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <!-- ***************************
+               Contact Area Start
+            *************************** -->
+            <section class="contact_area contact_style_4">
+                            <div class="contact_box">
+                                <form action="#" method="post">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="text" name="name" placeholder="Name" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="EMAIL" placeholder="Email" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="MOBILE NUMBER" placeholder="Phone Number" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            
+                                                 <select id="choices-multiple-remove-button" value="Video Surveillance System" >
+                                                        <option value="Video Surveillance System">Video Surveillance System</option>
+                                                        
+                                                       
+                                                    </select> 
+                                            
+                                            <!--<div class="input-group">
+                                            <select name="basic[]" multiple="multiple" class="3col active form-control">
+                                                <option value="Wireless Networking">Wireless Networking</option>
+                                                <option value="Call For Prayers">Call For Prayers</option>
+                                                <option value="Structured Networking">Structured Networking</option>
+                                                <option value="Sound System">Sound System</option>
+                                                <option value="Intercom">Intercom</option>
+                                                <option value="Surveillance Cameras">Surveillance Cameras</option>
+                                                <option value="Surveillance Cameras">Smart Smoke Detector</option>
+                                                
+                                                <option value="Smart lighting">Smart lighting</option>
+                                                <option value="Smart Curtains">Smart Curtains</option>
+                                                <option value="Smart Thermostat">Smart Thermostat</option>
+                                                <option value="Smart Door Bell">Smart Door Bell</option>
+                                                <option value="PBX System">PBX System</option>
+                                                <option value="Server Cabinet">Server Cabinet</option>
+                                                <option value="Optical fiber">Optical fiber</option>
+                                                <option value="Smart Garage Opener">Smart Garage Opener</option>
+                                            </select>
+                                            </div>-->
+                                            
+                                        </div>
+                                    </div><!--end .row-->
+                                </form>
+                            </div><!--end .contact_box-->
+            </section><!--end .contact_area-->
+            <!-- ***************************
+                Contact Area End
+             *************************** -->
+                </div>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                 
+                  <a type="button" class="btn btn-outline-info waves-effect" data-dismiss="modal">Cancel</a>
+                  <a type="button" class="btn btn-info modal-button">Send</a>
+                </div>
+              </div>
+              <!--/.Content-->
+            </div>
+          </div>
+            <div class="card6">
+                <figure class="card6_thumb">
+                    <img src="assets/images/commercial/10-01.webp" alt="Picture by Daniel Lincoln" class="card6_image">
+                    <figcaption class="card6_caption">
+                        <h2 class="card6_title"> Intercom System</h2>
+                        <p class="card6_snippet"> The intercom captures audio and video and transmits them to
+                            each tenant, which lets tenants see and speak with visitors
+                            before giving them access to the building.
+                            We provide intercom systems for multiroom apartments and
+                            buildings by installing the best video communication system.</p>
+                            <a href="" class="btn btn-default card6_button" data-toggle="modal" data-target="#modalAbandonedCart3">  request service
+                            </a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="modal fade right" id="modalAbandonedCart3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true" data-backdrop="false">
+            <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" style="top:100px" role="document">
+              <!--Content-->
+              <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                      </button>
+                  <span class="heading"> Get service
+                  </span>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <!-- ***************************
+               Contact Area Start
+            *************************** -->
+            <section class="contact_area contact_style_4">
+                            <div class="contact_box">
+                                <form action="#" method="post">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="text" name="name" placeholder="Name" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="EMAIL" placeholder="Email" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="MOBILE NUMBER" placeholder="Phone Number" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            
+                                                 <select id="choices-multiple-remove-button" value="Intercom System" >
+                                                        <option value="Intercom System">Intercom System</option>
+                                                        
+                                                       
+                                                    </select> 
+                                            
+                                            <!--<div class="input-group">
+                                            <select name="basic[]" multiple="multiple" class="3col active form-control">
+                                                <option value="Wireless Networking">Wireless Networking</option>
+                                                <option value="Call For Prayers">Call For Prayers</option>
+                                                <option value="Structured Networking">Structured Networking</option>
+                                                <option value="Sound System">Sound System</option>
+                                                <option value="Intercom">Intercom</option>
+                                                <option value="Surveillance Cameras">Surveillance Cameras</option>
+                                                <option value="Surveillance Cameras">Smart Smoke Detector</option>
+                                                
+                                                <option value="Smart lighting">Smart lighting</option>
+                                                <option value="Smart Curtains">Smart Curtains</option>
+                                                <option value="Smart Thermostat">Smart Thermostat</option>
+                                                <option value="Smart Door Bell">Smart Door Bell</option>
+                                                <option value="PBX System">PBX System</option>
+                                                <option value="Server Cabinet">Server Cabinet</option>
+                                                <option value="Optical fiber">Optical fiber</option>
+                                                <option value="Smart Garage Opener">Smart Garage Opener</option>
+                                            </select>
+                                            </div>-->
+                                            
+                                        </div>
+                                    </div><!--end .row-->
+                                </form>
+                            </div><!--end .contact_box-->
+            </section><!--end .contact_area-->
+            <!-- ***************************
+                Contact Area End
+             *************************** -->
+                </div>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                 
+                  <a type="button" class="btn btn-outline-info waves-effect" data-dismiss="modal">Cancel</a>
+                  <a type="button" class="btn btn-info modal-button">Send</a>
+                </div>
+              </div>
+              <!--/.Content-->
+            </div>
+          </div>
+            <div class="card6">
+                <figure class="card6_thumb">
+                    <img src="assets/images/commercial/7-01.webp" alt="Picture by Daniel Lincoln" class="card6_image">
+                    <figcaption class="card6_caption">
+                        <h2 class="card6_title">Sound System</h2>
+                        <p class="card6_snippet"> The smart sound system is a bunch of devices that play your
+                            favorite music, provide answers from verbally introduced
+                            questions, and control parts of your property using a built-in
+                            virtual assistant feature. A smart sound system also expands
+                            what we normally think of in daily-basis by providing it to us via
+                            smart sound device.</p>
+                            <a href="" class="btn btn-default card6_button" data-toggle="modal" data-target="#modalAbandonedCart4">  request service
+                            </a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="modal fade right" id="modalAbandonedCart4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true" data-backdrop="false">
+            <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" style="top:100px" role="document">
+              <!--Content-->
+              <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                      </button>
+                  <span class="heading"> Get service
+                  </span>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <!-- ***************************
+               Contact Area Start
+            *************************** -->
+            <section class="contact_area contact_style_4">
+                            <div class="contact_box">
+                                <form action="#" method="post">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="text" name="name" placeholder="Name" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="EMAIL" placeholder="Email" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="MOBILE NUMBER" placeholder="Phone Number" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            
+                                                 <select id="choices-multiple-remove-button" value="Sound System" >
+                                                        <option value="Sound System">Sound System</option>
+                                                        
+                                                       
+                                                    </select> 
+                                            
+                                            <!--<div class="input-group">
+                                            <select name="basic[]" multiple="multiple" class="3col active form-control">
+                                                <option value="Wireless Networking">Wireless Networking</option>
+                                                <option value="Call For Prayers">Call For Prayers</option>
+                                                <option value="Structured Networking">Structured Networking</option>
+                                                <option value="Sound System">Sound System</option>
+                                                <option value="Intercom">Intercom</option>
+                                                <option value="Surveillance Cameras">Surveillance Cameras</option>
+                                                <option value="Surveillance Cameras">Smart Smoke Detector</option>
+                                                
+                                                <option value="Smart lighting">Smart lighting</option>
+                                                <option value="Smart Curtains">Smart Curtains</option>
+                                                <option value="Smart Thermostat">Smart Thermostat</option>
+                                                <option value="Smart Door Bell">Smart Door Bell</option>
+                                                <option value="PBX System">PBX System</option>
+                                                <option value="Server Cabinet">Server Cabinet</option>
+                                                <option value="Optical fiber">Optical fiber</option>
+                                                <option value="Smart Garage Opener">Smart Garage Opener</option>
+                                            </select>
+                                            </div>-->
+                                            
+                                        </div>
+                                    </div><!--end .row-->
+                                </form>
+                            </div><!--end .contact_box-->
+            </section><!--end .contact_area-->
+            <!-- ***************************
+                Contact Area End
+             *************************** -->
+                </div>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                 
+                  <a type="button" class="btn btn-outline-info waves-effect" data-dismiss="modal">Cancel</a>
+                  <a type="button" class="btn btn-info modal-button">Send</a>
+                </div>
+              </div>
+              <!--/.Content-->
+            </div>
+          </div>
+            <div class="card6">
+                <figure class="card6_thumb">
+                    <img src="assets/images/commercial/8-01.webp" alt="Picture by Daniel Lincoln" class="card6_image">
+                    <figcaption class="card6_caption">
+                        <h2 class="card6_title">Gate Barrier System</h2>
+                        <p class="card6_snippet"> A gate barrier system are generally used to allow or block
+                            the vehicular access, it is also known as a Parking barrier system.
+                            Vehicle barrier systems are generally installed on parking facilities,
+                            checkpoints and entrances in order to restrict areas and to control
+                            passage through toll booths.</p>
+                            <a href="" class="btn btn-default card6_button" data-toggle="modal" data-target="#modalAbandonedCart5">  request service
+                            </a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="modal fade right" id="modalAbandonedCart5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true" data-backdrop="false">
+            <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" style="top:100px" role="document">
+              <!--Content-->
+              <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                      </button>
+                  <span class="heading"> Get service
+                  </span>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <!-- ***************************
+               Contact Area Start
+            *************************** -->
+            <section class="contact_area contact_style_4">
+                            <div class="contact_box">
+                                <form action="#" method="post">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="text" name="name" placeholder="Name" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="EMAIL" placeholder="Email" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="MOBILE NUMBER" placeholder="Phone Number" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            
+                                                 <select id="choices-multiple-remove-button" value="Gate Barrier System" >
+                                                        <option value="Gate Barrier System">Gate Barrier System</option>
+                                                        
+                                                       
+                                                    </select> 
+                                            
+                                            <!--<div class="input-group">
+                                            <select name="basic[]" multiple="multiple" class="3col active form-control">
+                                                <option value="Wireless Networking">Wireless Networking</option>
+                                                <option value="Call For Prayers">Call For Prayers</option>
+                                                <option value="Structured Networking">Structured Networking</option>
+                                                <option value="Sound System">Sound System</option>
+                                                <option value="Intercom">Intercom</option>
+                                                <option value="Surveillance Cameras">Surveillance Cameras</option>
+                                                <option value="Surveillance Cameras">Smart Smoke Detector</option>
+                                                
+                                                <option value="Smart lighting">Smart lighting</option>
+                                                <option value="Smart Curtains">Smart Curtains</option>
+                                                <option value="Smart Thermostat">Smart Thermostat</option>
+                                                <option value="Smart Door Bell">Smart Door Bell</option>
+                                                <option value="PBX System">PBX System</option>
+                                                <option value="Server Cabinet">Server Cabinet</option>
+                                                <option value="Optical fiber">Optical fiber</option>
+                                                <option value="Smart Garage Opener">Smart Garage Opener</option>
+                                            </select>
+                                            </div>-->
+                                            
+                                        </div>
+                                    </div><!--end .row-->
+                                </form>
+                            </div><!--end .contact_box-->
+            </section><!--end .contact_area-->
+            <!-- ***************************
+                Contact Area End
+             *************************** -->
+                </div>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                 
+                  <a type="button" class="btn btn-outline-info waves-effect" data-dismiss="modal">Cancel</a>
+                  <a type="button" class="btn btn-info modal-button">Send</a>
+                </div>
+              </div>
+              <!--/.Content-->
+            </div>
+          </div>
+            <div class="card6">
+                <figure class="card6_thumb">
+                    <img src="assets/images/commercial/11-01.webp" alt="Picture by Daniel Lincoln" class="card6_image">
+                    <figcaption class="card6_caption">
+                        <h2 class="card6_title"> WIFI Network Solutions</h2>
+                        <p class="card6_snippet"> You Smart’s WIFI network solutions are made for buildings, smart homes,
+                            malls, business halls, offices, lounges, and hotels.
+                            WIFI networks in huge areas require wide coverage and strong signal,
+                            which is the main focus of You Smart’s installation team to make sure all
+                            areas are covered with network equally.</p>
+                            <a href="" class="btn btn-default card6_button" data-toggle="modal" data-target="#modalAbandonedCart6">  request service
+                            </a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="modal fade right" id="modalAbandonedCart6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true" data-backdrop="false">
+            <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" style="top:100px" role="document">
+              <!--Content-->
+              <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                      </button>
+                  <span class="heading"> Get service
+                  </span>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <!-- ***************************
+               Contact Area Start
+            *************************** -->
+            <section class="contact_area contact_style_4">
+                            <div class="contact_box">
+                                <form action="#" method="post">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="text" name="name" placeholder="Name" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="EMAIL" placeholder="Email" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="MOBILE NUMBER" placeholder="Phone Number" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            
+                                                 <select id="choices-multiple-remove-button" value="WIFI Network Solutions" >
+                                                        <option value="WIFI Network Solutions">WIFI Network Solutions</option>
+                                                        
+                                                       
+                                                    </select> 
+                                            
+                                            <!--<div class="input-group">
+                                            <select name="basic[]" multiple="multiple" class="3col active form-control">
+                                                <option value="Wireless Networking">Wireless Networking</option>
+                                                <option value="Call For Prayers">Call For Prayers</option>
+                                                <option value="Structured Networking">Structured Networking</option>
+                                                <option value="Sound System">Sound System</option>
+                                                <option value="Intercom">Intercom</option>
+                                                <option value="Surveillance Cameras">Surveillance Cameras</option>
+                                                <option value="Surveillance Cameras">Smart Smoke Detector</option>
+                                                
+                                                <option value="Smart lighting">Smart lighting</option>
+                                                <option value="Smart Curtains">Smart Curtains</option>
+                                                <option value="Smart Thermostat">Smart Thermostat</option>
+                                                <option value="Smart Door Bell">Smart Door Bell</option>
+                                                <option value="PBX System">PBX System</option>
+                                                <option value="Server Cabinet">Server Cabinet</option>
+                                                <option value="Optical fiber">Optical fiber</option>
+                                                <option value="Smart Garage Opener">Smart Garage Opener</option>
+                                            </select>
+                                            </div>-->
+                                            
+                                        </div>
+                                    </div><!--end .row-->
+                                </form>
+                            </div><!--end .contact_box-->
+            </section><!--end .contact_area-->
+            <!-- ***************************
+                Contact Area End
+             *************************** -->
+                </div>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                 
+                  <a type="button" class="btn btn-outline-info waves-effect" data-dismiss="modal">Cancel</a>
+                  <a type="button" class="btn btn-info modal-button">Send</a>
+                </div>
+              </div>
+              <!--/.Content-->
+            </div>
+          </div>
+            <div class="card6">
+                <figure class="card6_thumb">
+                    <img src="assets/images/commercial/13-01.webp" alt="Picture by Daniel Lincoln" class="card6_image">
+                    <figcaption class="card6_caption">
+                        <h2 class="card6_title">Network Cabiling and Infrastructure Solutions</h2>
+                        <p class="card6_snippet"> Network infrastructure is the physical connecting hardware and structured cabling that enable
+                            network connectivity, communication, operations and management of an enterprise network.
+                            It provides the communications pathways, spaces and transmission links between users,
+                            processes, applications and services.</p>
+                            <a href="" class="btn btn-default card6_button" data-toggle="modal" data-target="#modalAbandonedCart7">  request service
+                            </a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="modal fade right" id="modalAbandonedCart7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true" data-backdrop="false">
+            <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" style="top:100px" role="document">
+              <!--Content-->
+              <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                      </button>
+                  <span class="heading"> Get service
+                  </span>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <!-- ***************************
+               Contact Area Start
+            *************************** -->
+            <section class="contact_area contact_style_4">
+                            <div class="contact_box">
+                                <form action="#" method="post">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="text" name="name" placeholder="Name" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="EMAIL" placeholder="Email" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="MOBILE NUMBER" placeholder="Phone Number" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            
+                                                 <select id="choices-multiple-remove-button" value="Network Cabiling and Infrastructure Solutions" >
+                                                        <option value="Network Cabiling and Infrastructure Solutions">Network Cabiling and Infrastructure Solutions</option>
+                                                        
+                                                       
+                                                    </select> 
+                                            
+                                            <!--<div class="input-group">
+                                            <select name="basic[]" multiple="multiple" class="3col active form-control">
+                                                <option value="Wireless Networking">Wireless Networking</option>
+                                                <option value="Call For Prayers">Call For Prayers</option>
+                                                <option value="Structured Networking">Structured Networking</option>
+                                                <option value="Sound System">Sound System</option>
+                                                <option value="Intercom">Intercom</option>
+                                                <option value="Surveillance Cameras">Surveillance Cameras</option>
+                                                <option value="Surveillance Cameras">Smart Smoke Detector</option>
+                                                
+                                                <option value="Smart lighting">Smart lighting</option>
+                                                <option value="Smart Curtains">Smart Curtains</option>
+                                                <option value="Smart Thermostat">Smart Thermostat</option>
+                                                <option value="Smart Door Bell">Smart Door Bell</option>
+                                                <option value="PBX System">PBX System</option>
+                                                <option value="Server Cabinet">Server Cabinet</option>
+                                                <option value="Optical fiber">Optical fiber</option>
+                                                <option value="Smart Garage Opener">Smart Garage Opener</option>
+                                            </select>
+                                            </div>-->
+                                            
+                                        </div>
+                                    </div><!--end .row-->
+                                </form>
+                            </div><!--end .contact_box-->
+            </section><!--end .contact_area-->
+            <!-- ***************************
+                Contact Area End
+             *************************** -->
+                </div>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                 
+                  <a type="button" class="btn btn-outline-info waves-effect" data-dismiss="modal">Cancel</a>
+                  <a type="button" class="btn btn-info modal-button">Send</a>
+                </div>
+              </div>
+              <!--/.Content-->
+            </div>
+          </div>
+            <div class="card6">
+                <figure class="card6_thumb">
+                    <img src="assets/images/commercial/18-01.webp" alt="Picture by Daniel Lincoln" class="card6_image">
+                    <figcaption class="card6_caption">
+                        <h2 class="card6_title">Building Access Control and Biometrics System</h2>
+                        <p class="card6_snippet"> A biometric reader or scanning device is used to obtain the necessary verification data from
+                            a person. For example, in fingerprint biometrics applications, an optical sensor is employed
+                            to produce an image of the ridge structure at a fingertip, and this image serves as the basis
+                            for further access control activity.</p>
+                            <a href="" class="btn btn-default card6_button" data-toggle="modal" data-target="#modalAbandonedCart8">  request service
+                            </a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="modal fade right" id="modalAbandonedCart8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true" data-backdrop="false">
+            <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" style="top:100px" role="document">
+              <!--Content-->
+              <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                      </button>
+                  <span class="heading"> Get service
+                  </span>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <!-- ***************************
+               Contact Area Start
+            *************************** -->
+            <section class="contact_area contact_style_4">
+                            <div class="contact_box">
+                                <form action="#" method="post">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="text" name="name" placeholder="Name" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="EMAIL" placeholder="Email" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="MOBILE NUMBER" placeholder="Phone Number" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            
+                                                 <select id="choices-multiple-remove-button" value="Building Access Control and Biometrics System" >
+                                                        <option value="Building Access Control and Biometrics System">Building Access Control and Biometrics System</option>
+                                                        
+                                                       
+                                                    </select> 
+                                            
+                                            <!--<div class="input-group">
+                                            <select name="basic[]" multiple="multiple" class="3col active form-control">
+                                                <option value="Wireless Networking">Wireless Networking</option>
+                                                <option value="Call For Prayers">Call For Prayers</option>
+                                                <option value="Structured Networking">Structured Networking</option>
+                                                <option value="Sound System">Sound System</option>
+                                                <option value="Intercom">Intercom</option>
+                                                <option value="Surveillance Cameras">Surveillance Cameras</option>
+                                                <option value="Surveillance Cameras">Smart Smoke Detector</option>
+                                                
+                                                <option value="Smart lighting">Smart lighting</option>
+                                                <option value="Smart Curtains">Smart Curtains</option>
+                                                <option value="Smart Thermostat">Smart Thermostat</option>
+                                                <option value="Smart Door Bell">Smart Door Bell</option>
+                                                <option value="PBX System">PBX System</option>
+                                                <option value="Server Cabinet">Server Cabinet</option>
+                                                <option value="Optical fiber">Optical fiber</option>
+                                                <option value="Smart Garage Opener">Smart Garage Opener</option>
+                                            </select>
+                                            </div>-->
+                                            
+                                        </div>
+                                    </div><!--end .row-->
+                                </form>
+                            </div><!--end .contact_box-->
+            </section><!--end .contact_area-->
+            <!-- ***************************
+                Contact Area End
+             *************************** -->
+                </div>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                 
+                  <a type="button" class="btn btn-outline-info waves-effect" data-dismiss="modal">Cancel</a>
+                  <a type="button" class="btn btn-info modal-button">Send</a>
+                </div>
+              </div>
+              <!--/.Content-->
+            </div>
+          </div>
+            <div class="card6">
+                <figure class="card6_thumb">
+                    <img src="assets/images/commercial/19-01.webp" alt="Picture by Daniel Lincoln" class="card6_image">
+                    <figcaption class="card6_caption">
+                        <h2 class="card6_title">Building Management System</h2>
+                        <p class="card6_snippet"> BMS System is computer-based control system which reduces the workforce,
+                            automate the system, and saving the energy consumption in buildings by monitoring
+                            and controlling the mechanical and electrical equipment in modern-day buildings
+                            or any industrial plants.</p>
+                            <a href="" class="btn btn-default card6_button" data-toggle="modal" data-target="#modalAbandonedCart9">  request service
+                            </a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="modal fade right" id="modalAbandonedCart9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true" data-backdrop="false">
+            <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" style="top:100px" role="document">
+              <!--Content-->
+              <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                      </button>
+                  <span class="heading"> Get service
+                  </span>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <!-- ***************************
+               Contact Area Start
+            *************************** -->
+            <section class="contact_area contact_style_4">
+                            <div class="contact_box">
+                                <form action="#" method="post">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="text" name="name" placeholder="Name" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="EMAIL" placeholder="Email" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <input type="EMAIL" name="MOBILE NUMBER" placeholder="Phone Number" required>
+                                            </div><!--end .input-group-->
+                                        </div><!--end .col-md-6-->
+                                        <div class="col-md-12">
+                                            
+                                                 <select id="choices-multiple-remove-button" value="Building Management System" >
+                                                        <option value="Building Management System">Building Management System</option>
+                                                        
+                                                       
+                                                    </select> 
+                                            
+                                            <!--<div class="input-group">
+                                            <select name="basic[]" multiple="multiple" class="3col active form-control">
+                                                <option value="Wireless Networking">Wireless Networking</option>
+                                                <option value="Call For Prayers">Call For Prayers</option>
+                                                <option value="Structured Networking">Structured Networking</option>
+                                                <option value="Sound System">Sound System</option>
+                                                <option value="Intercom">Intercom</option>
+                                                <option value="Surveillance Cameras">Surveillance Cameras</option>
+                                                <option value="Surveillance Cameras">Smart Smoke Detector</option>
+                                                
+                                                <option value="Smart lighting">Smart lighting</option>
+                                                <option value="Smart Curtains">Smart Curtains</option>
+                                                <option value="Smart Thermostat">Smart Thermostat</option>
+                                                <option value="Smart Door Bell">Smart Door Bell</option>
+                                                <option value="PBX System">PBX System</option>
+                                                <option value="Server Cabinet">Server Cabinet</option>
+                                                <option value="Optical fiber">Optical fiber</option>
+                                                <option value="Smart Garage Opener">Smart Garage Opener</option>
+                                            </select>
+                                            </div>-->
+                                            
+                                        </div>
+                                    </div><!--end .row-->
+                                </form>
+                            </div><!--end .contact_box-->
+            </section><!--end .contact_area-->
+            <!-- ***************************
+                Contact Area End
+             *************************** -->
+                </div>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                 
+                  <a type="button" class="btn btn-outline-info waves-effect" data-dismiss="modal">Cancel</a>
+                  <a type="button" class="btn btn-info modal-button">Send</a>
+                </div>
+              </div>
+              <!--/.Content-->
+            </div>
+          </div>
+        </div>
+        
+    </section>
+    
+    <!-- ***************************
+        Service Area End
+     *************************** -->
+      
+     <footer class="footer_area section_padding section_dark_bg">
+        <img src="assets/images/testimonial-shape.webp" class="triangle_shape footer_shape" alt="Shape">
+        <img src="assets/images/testimonial-shape.webp" class="triangle_shape_2 footer_shape_2" alt="Shape">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <p style="color:#fff; font-size:14px; margin-bottom:50px">We are created to simplify daily complicated tasks. 
+                        We have 3 basic principles: assuring safety, increasing protection, and reducing risks, to make technology simple and easy to use. 
+                        We're always on standby for any project that contains installation, consultation, or maintenance.</p>
+                    <h5 style="color: white;">licensed from: </h5>
+                   <a href="https://tdra.gov.ae/" target="_blank" style="position: absolute;"><img style="width: 220px;" src="assets/images/tdra.webp"></a>
+                   <br>
+                   <br>
+                   <br>
+                   <a href="https://www.sira.gov.ae/" target="_blank" style="position: absolute;"><img style="width: 220px;" src="assets//images/amnia.webp" ></a>
+                </div><!--end .col-md-4-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="footer_widget company_widget">
+                        <h5>Site Map</h5>
+                        <ul class="quick_links">
+                            <li><a href="home.html"><i class="fa fa-angle-right"></i> Home</a></li>
+                            
+                            <li><a href="service.html"><i class="fa fa-angle-right"></i> Services</a></li>
+                            <li><a href="smart-home.html"><i class="fa fa-angle-right"></i> Smart Home</a></li>
+                            <li><a href="about.html"><i class="fa fa-angle-right"></i> About us</a></li>
+
+                            <li><a href="blog.html"><i class="fa fa-angle-right"></i> Blog</a></li>
+                            <li><a href="contact.html"><i class="fa fa-angle-right"></i> Contact Us</a></li>
+                        </ul>
+                    </div><!--end .footer_widget-->
+                </div><!--end .col-md-3-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="footer_widget help_widgets">
+                        <h5>Contact Us  </h5>
+                        <ul style="color: white;">
+                            <li><i class="fa fa-phone"></i>  +971 43551885<br>&nbsp; &nbsp; &nbsp;&nbsp;+971 528971263</li>
+                            <li><i class="fa fa-envelope"></i> info@yousmart.ae </li>
+                            <li><i class="fa fa-map-marker"></i> Alquoz Ind, First, Alquoz Commercial Bld, Office 113,  Sheikh Zayed Road , Dubai , UAE </li>
+                        </ul>
+                        <ul  class="social_links">
+                            <li>
+                                <a href="https://www.facebook.com/yousmart.ae/" target="_blank"><i><img style="width:43px" src="assets/images/social-media/facebook.webp"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/yousmart.ae/?hl=en" target="_blank"><img style="width:43px" src="assets/images/social-media/instagram.webp"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/yousmartae?lang=en" target="_blank"><img style="width:43px" src="assets/images/social-media/twitter.webp"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank"><img style="width:43px" src="assets/images/social-media/youtube.webp"></i></a>
+                            </li>
+                        </ul>
+                        <br> 
+                        <p style="color: white;">Click here to review service   </p>
+<a class="review" target="blank" href="https://www.google.com/search?q=yousmart&oq=yousmart&aqs=chrome..69i57j35i39l2j46i10i175i199i512j69i60l4.6431j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3e5f4288ff601ad7:0x4286c7faa417d622,3,,,">
+   <span style="text-align:center;">
+    <img style="max-width: 200px;" src="assets/images/rev.gif">
+</span></a>
+                    </div><!--end .footer_widget-->
+                </div><!--end .col-md-2-->
+            </div><!--end .row-->
+        </div><!--end .container-->
+    </footer><!--end .footer_area-->
+     <!--<script src="https://apps.elfsight.com/p/platform.js" defer></script>-->
+    <div class="elfsight-app-153c25a0-4508-4459-8982-9e3f92ece722"></div>
+    <div class="copyright_area text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; Copyright 2021 by <a target="_blank" href="https://yousmart.ae">You Smart</a></p>
+                </div><!--end .col-md-12-->
+                <div class="col-md-12">
+                    <p>Powered By <a target="_blank" href="https://teamsocial.ae/">Team Social</a></p>
+                </div><!--end .col-md-12-->
+            </div><!--end .row-->
+        </div><!--end .container-->
+    </div><!--end .copyright_area-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha512-DUC8yqWf7ez3JD1jszxCWSVB0DMP78eOyBpMa5aJki1bIRARykviOuImIczkxlj1KhVSyS16w2FSQetkD4UU2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            <script src="assets/js/custom.min.js"></script> <script src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.js"></script>
+     <script src="assets/js/jquery.multiselect.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.js"></script>
+     <script src="assets/js/script.min.js" defer></script>
+    <script src="assets/js/popper.min.js"></script>
+     <script>
+        jQuery(document).ready(function () {
+    $(".dropdown").hover(
+
+    function () {
+        $('.dropdown-menu', this).stop().fadeIn("fast");
+    },
+
+    function () {
+        $('.dropdown-menu', this).stop().fadeOut("fast");
+    });
+});
+    </script>
+  
+      
+<script>
+                $(function() {
+
+                    $('select[multiple].active.3col').multiselect({
+                      columns: 3,
+                      placeholder: 'Select Service',
+                      search: true,
+                     
+                      selectAll: false
+                    });
+                
+                });
+            </script>
+            <script>
+                $(document).ready(function(){
+
+var multipleCancelButton = new Choices('#choices-multiple-remove-button', {
+removeItemButton: true,
+maxItemCount:15,
+searchResultLimit:15,
+renderChoiceLimit:15
+});
+
+
+});
+            </script>
+</body>
+</html>
